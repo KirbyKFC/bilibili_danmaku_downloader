@@ -10,15 +10,15 @@
 保存[bash脚本文件](https://github.com/KirbyKFC/bilibili_danmaku_downloader/raw/master/bilibili_danmaku_downloader.sh "bash脚本文件")  
 或者通过Github的"Clone or Download"
 
-### 使用方法
-#### 使用前
+#### 自定义
 编辑bilibili_danmaku_downloader.sh文件，按需修改前几行的参数。
 
+## 使用方法
 #### 下载单个视频的弹幕  
-bilibili_danmaku_downloader.sh \[含有BV号的链接或BV号\]
+`bilibili_danmaku_downloader.sh \[含有BV号的链接或BV号\]`  
 例：   
-1. ./bilibili_danmaku_downloader.sh https://www.bilibili.com/video/BV1As411i7rr 
-2. ./bilibili_danmaku_downloader.sh BV1As411i7rr  
+- `./bilibili_danmaku_downloader.sh https://www.bilibili.com/video/BV1As411i7rr`
+- `./bilibili_danmaku_downloader.sh BV1As411i7rr`
 
 #### 下载多个视频的弹幕  
 不带参数执行本脚本，按照提示依次输入链接或BV号。
@@ -26,12 +26,12 @@ bilibili_danmaku_downloader.sh \[含有BV号的链接或BV号\]
 ## 杂谈
 ### 离线播放视频对比B站在线观看
 优点：  
-1. 字幕组源无删减和谐、BD源高画质。
-2. 可使用更强的渲染器、各种滤镜、倍帧工具进一步提高画质（mpv、madVR、svp等等软件）
+- 字幕组源无删减和谐、BD源高画质。
+- 可使用更强的渲染器、各种滤镜、倍帧工具进一步提高画质（mpv、madVR、svp等等软件）
 
 缺点：  
-1. 新番更新比B站慢一两天。
-2. 传统视频播放器如果不使用倍帧工具，则弹幕会按照视频帧率进行渲染，即辣眼睛的30帧或更低。（如果使用弹弹play则不会有这个问题，但会牺牲扩展性）
+- 新番更新比B站慢一两天。
+- 传统视频播放器如果不使用倍帧工具，则弹幕会按照视频帧率进行渲染，即辣眼睛的30帧或更低。（如果使用弹弹play则不会有这个问题，但会牺牲扩展性）
 
 ### 个人使用组合
 播放器为mpv，  
