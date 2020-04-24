@@ -10,7 +10,7 @@
 保存[bash脚本文件](https://github.com/KirbyKFC/bilibili_danmaku_downloader/raw/master/bilibili_danmaku_downloader.sh "bash脚本文件")  
 或者通过Github的"Clone or Download"
 
-#### 自定义
+### 自定义
 编辑bilibili_danmaku_downloader.sh文件，按需修改前几行的参数。
 
 ## 使用方法
